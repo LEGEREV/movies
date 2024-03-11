@@ -1,0 +1,25 @@
+http://localhost:5000/api/v1/movies/id/573a1391f29313caabcd68d0
+
+http://localhost:5000/api/v1/movies/review
+
+POST
+{
+	"movie_id": "573a1391f29313caabcd68d0",
+	"review": "new and very good",
+	"user_id": "UY6mhImWZ9KYrlX3@cluster0",
+	"name": "Alexander"
+}
+
+PUT
+{
+	"review_id": "63c5b61f51d079a38eedb02d",
+	"review": "not new and not very good",
+	"user_id": "UY6mhImWZ9KYrlX3@cluster0",
+	"name": "Alexander"
+}
+
+DELETE
+{
+	"review_id": "63c5b61f51d079a38eedb02d",
+	"user_id": "UY6mhImWZ9KYrlX3@cluster0"
+}
